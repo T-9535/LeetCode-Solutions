@@ -12,7 +12,7 @@ class Solution(object):
             left = i+1
             right = n-1
             while left< right:
-                current_sum  = +nums[i]+nums[left]+nums[right]
+                current_sum  = nums[i]+nums[left]+nums[right]
                 if current_sum <0:
                     left+=1
                 elif current_sum>0:
